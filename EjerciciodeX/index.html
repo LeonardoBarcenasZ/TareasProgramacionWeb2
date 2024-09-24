@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Letras X y Tablas de Multiplicar</title>
+</head>
+<body>
+    <h1>Generador de Letras X y Tablas de Multiplicar</h1>
+    
+    <!-- Primer apartado: -->
+    <label for="numero">Introduce el número de 'x' a imprimir:</label>
+    <input type="number" id="numero" min="1" placeholder="Escribe un número">
+    <button onclick="generar()">Generar</button>
+    <h2>Resultado en la página:</h2>
+    <pre id="resultado"></pre>
+
+    <hr>
+
+    <!-- Segundo apartado: -->
+    <h2>Generar un cuadrado de 4x4 con 'X':</h2>
+    <button onclick="generarCuadrado()">Generar Cuadrado 4x4</button>
+    <pre id="cuadradoResultado"></pre>
+
+    <hr>
+
+    <!-- Tercer apartado: -->
+    <h2>Generar las tablas de multiplicar del 1 al 10:</h2>
+    <button onclick="generarTablas()">Generar Tablas de Multiplicar</button>
+    <pre id="tablasResultado"></pre>
+
+    <script src="script.js"></script>
+</body>
+</html>
