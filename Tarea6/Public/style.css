@@ -1,0 +1,64 @@
+body{
+    color: white;
+    background-color: rgb(221, 176, 52);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 1em;
+}
+button{
+    margin: 7px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: rgb(227, 88, 34);
+    background-color: rgb(194, 209, 23);
+    color: white;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover{
+    padding: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: rgb(209, 124, 6);
+    background-color: rgb(209, 124, 6);
+    color: white;
+    font-weight: bold;
+    
+}
+
+td, th, tr{
+    padding: 10px;
+    
+}
+div{
+    padding: 10px;
+}
+
+input{
+    margin: 5px ;
+    padding: 4px;
+    border-radius: 6px;
+    border-color: rgb(125, 138, 255);
+    background-color: rgb(17, 10, 69);
+    color: white;
+
+}
+
+select{
+
+    margin: 7px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(253, 253, 253);
+    color: white;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
