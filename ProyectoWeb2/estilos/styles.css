@@ -1,0 +1,186 @@
+/* Contenedor General */
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    background: linear-gradient(135deg, #ffecd2, #fcb69f);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    font-family: 'Courier New', Courier, monospace;
+    color: #2c3e50;
+}
+
+/* Título Principal */
+.main-title {
+    text-align: center;
+    color: #34495e;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    background: #ecf0f1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Tabla de Usuarios */
+.user-table {
+    width: 100%;
+    border-spacing: 0;
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: #2c3e50;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.user-table th, .user-table td {
+    padding: 15px;
+    text-align: center;
+}
+
+.user-table th {
+    background-color: #34495e;
+    color: #ecf0f1;
+    text-transform: uppercase;
+}
+
+.user-table tr {
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.user-table tr:hover {
+    transform: scale(1.02);
+    background-color: #dfe6e9;
+}
+
+/* Enlaces de Acción */
+.edit-link, .delete-link, .add-user {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 50px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.edit-link {
+    background-color: #6c5ce7;
+    color: #ffffff;
+}
+
+.edit-link:hover {
+    background-color: #4b4be4;
+    transform: translateY(-2px);
+}
+
+.delete-link {
+    background-color: #e17055;
+    color: #ffffff;
+}
+
+.delete-link:hover {
+    background-color: #d63031;
+    transform: translateY(-2px);
+}
+
+.add-user {
+    background-color: #00cec9;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 15px 30px;
+}
+
+.add-user:hover {
+    background-color: #00a8a8;
+    transform: translateY(-3px);
+}
+
+/* Botones de Acción */
+.actualizar, .cancel {
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-size: 14px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.actualizar {
+    background-color: #0984e3;
+    color: #ffffff;
+}
+
+.actualizar:hover {
+    background-color: #006bbf;
+    transform: translateY(-2px);
+}
+
+.cancel {
+    background-color: #d63031;
+    color: #ffffff;
+}
+
+.cancel:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px);
+}
+
+/* Formularios */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #2c3e50;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-bottom: 3px solid #dcdde1;
+    border-radius: 0;
+    background: transparent;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+    border-bottom-color: #6c5ce7;
+    outline: none;
+}
+
+.form-actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+    .container {
+        padding: 30px;
+    }
+
+    .main-title {
+        font-size: 22px;
+    }
+
+    .add-user {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .actualizar, .cancel {
+        padding: 8px 20px;
+    }
+}
